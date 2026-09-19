@@ -128,7 +128,8 @@ If you use this repository or build on EventSleepFormer, please cite the followi
 ```bibtex
 @article{perera2026eventsleepformer,
   title={EventSleepFormer: An Efficient Framework for Event-Camera Sleep Activity, Movement, and Posture Recognition},
-  author={Perera, Vidushika Neranjani and Dinh, Tai and Saito, Yasuki},
+  <!-- author={Perera, Vidushika Neranjani and Dinh, Tai and Saito, Yasuki}, -->
+  author={Author identities are concealed during the double-blind peer-review process.}
   year={2026}
 }
 ```
