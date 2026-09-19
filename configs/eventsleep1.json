@@ -1,0 +1,75 @@
+{
+  "configuration_id": "577106a0cce2",
+  "method_spec": "eventsleepformer@weighted_ce",
+  "model": {
+    "backbone_mode": "auto",
+    "causal": true,
+    "clip_level": true,
+    "d_model": 256,
+    "descriptor_dim": 5,
+    "dino_model": "vit_small_patch14_dinov2.lvd142m",
+    "dropout": 0.1,
+    "image_size": 224,
+    "lora_blocks": 4,
+    "lora_rank": 8,
+    "method": "eventsleepformer",
+    "num_classes": 10,
+    "pretrained": true,
+    "sequence_length": 32,
+    "spatial_microbatch": 64,
+    "temporal_heads": 4,
+    "temporal_layers": 3,
+    "variant": "full"
+  },
+  "training": {
+    "accumulation_steps": 1,
+    "amp": true,
+    "backbone_lr_multiplier": 0.1,
+    "batch_size": 4,
+    "boundary_weight": 0.2,
+    "deterministic": true,
+    "epochs": 50,
+    "gradient_clip": 1.0,
+    "label_smoothing": 0.05,
+    "learning_rate": 0.0003,
+    "patience": 10,
+    "warmup_epochs": 3,
+    "weight_decay": 0.05,
+    "workers": 4
+  },
+  "paper_protocol": {
+    "train_subjects": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10
+    ],
+    "validation_subjects": [
+      11
+    ],
+    "test_subjects": [
+      9,
+      12,
+      13,
+      14
+    ],
+    "seeds": [
+      13,
+      37,
+      73,
+      101,
+      137
+    ],
+    "samples": {
+      "train": 666,
+      "validation": 70,
+      "test": 259,
+      "total": 995
+    }
+  }
+}

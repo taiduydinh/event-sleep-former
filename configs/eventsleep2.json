@@ -1,0 +1,67 @@
+{
+  "configuration_id": "53ca6700c00a",
+  "profile": "paper_declared",
+  "official_test_evaluated_during_selection": false,
+  "dataset_fingerprint": "7e27838c43449abcb72c06641031e46cb2b2140581c75a6cc6f55f68fedb1efa",
+  "config": {
+    "accumulation_steps": 2,
+    "amp": true,
+    "backbone_lr_multiplier": 0.1,
+    "backbone_mode": "lora",
+    "batch_size": 4,
+    "boundary_weight": 0.2,
+    "causal": true,
+    "d_model": 256,
+    "dino_model": "vit_small_patch14_dinov2.lvd142m",
+    "dropout": 0.3,
+    "epochs": 50,
+    "gradient_clip": 1.0,
+    "image_size": 224,
+    "label_smoothing": 0.0,
+    "learning_rate": 0.00015,
+    "lora_blocks": 4,
+    "lora_rank": 8,
+    "loss": "weighted_ce",
+    "motion_loss_weight": 0.6,
+    "patience": 10,
+    "sequence_length": 64,
+    "spatial_microbatch": 64,
+    "static_loss_weight": 0.4,
+    "temporal_heads": 4,
+    "temporal_layers": 4,
+    "warmup_epochs": 4,
+    "weight_decay": 0.05
+  },
+  "paper_protocol": {
+    "annotation_protocol": "timestamp_intervals_v1",
+    "train_recordings": [
+      "subject01_seq01",
+      "subject02_seq01",
+      "subject03_seq01"
+    ],
+    "validation_recordings": [
+      "subject02_seq05"
+    ],
+    "test_recordings": [
+      "subject01_seq02",
+      "subject01_seq03",
+      "subject01_seq04",
+      "subject02_seq02",
+      "subject02_seq03",
+      "subject02_seq04"
+    ],
+    "seeds": [
+      13,
+      37,
+      73,
+      101,
+      137
+    ],
+    "claims": {
+      "train": 5153,
+      "validation": 1055,
+      "test": 10536
+    },
+    "selection_metric": "0.6*movement_macro_f1 + 0.4*posture_macro_f1"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "paper_title": "EventSleepFormer: An Efficient Framework for Event-Camera Sleep Activity, Movement, and Posture Recognition",
+  "paper_configurations": {
+    "eventsleep1": "577106a0cce2",
+    "eventsleep2": "53ca6700c00a"
+  },
+  "eventsleep2_dataset_fingerprint": "7e27838c43449abcb72c06641031e46cb2b2140581c75a6cc6f55f68fedb1efa",
+  "original_audited_source_sha256": {
+    "eventsleepformer_pipeline_v1.0.6.py": "4eb2790cc2f1c17f260ad7d34e21604df007a82e44c89b4ae48391a681afe3e1",
+    "eventsleep2_experiments_v1.1.6.py": "6e44a065d14236da5249462a4d1e3d513ca0765f0a83d6b3956cc30d44ab8c74",
+    "eventsleep2_timestamp_protocol_v1.py": "fe67eb66e2e69a7a20fdcab9b80c9a46dc46356e1699a5d68925dfaa36b51eb5",
+    "eventsleep_preprocess.py": "0d12e2c1fd47e72401ee5c9f4b976966303615bd69c80fd527e15bb9c7e89b9a"
+  },
+  "note": "Public filenames/wrappers were reorganized for release. The EventSleep2 timestamp protocol adapter is byte-identical because its hash participates in the dataset fingerprint.",
+  "eventsleep2_source_dataset_fingerprint": "0339ef7ad3c0e622e584762cc5a34e0679f26e7e9ffd2b6de511fec775e4905c",
+  "eventsleep2_labels_sha256": "094f5ac69ae89680e81f48f901e43b4a5cbe6664f041be186c01e32ab5cc9f17",
+  "eventsleep2_dataset_fingerprint_note": "The paper audit fingerprint includes generation-specific metadata hashes and is retained as provenance; clean rebuilds verify stable source fingerprint, label hash, rule, split, and claim counts."
+}

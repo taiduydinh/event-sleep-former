@@ -1,0 +1,26 @@
+# Large/private experiment data
+data/raw/
+data/processed/
+outputs/
+logs/
+checkpoints/
+
+# Model/data binaries
+*.pt
+*.pth
+*.ckpt
+*.aedat4
+*.npy
+*.npz
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/

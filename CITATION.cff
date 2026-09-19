@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the EventSleepFormer paper and this repository."
+title: "EventSleepFormer"
+type: software
+authors:
+  - family-names: "Perera"
+    given-names: "Vidushika Neranjani"
+  - family-names: "Dinh"
+    given-names: "Tai"
+  - family-names: "Saito"
+    given-names: "Yasuki"
+repository-code: "https://github.com/taiduydinh/event-sleep-former"
+version: "1.0.0"
+date-released: "2026-09-20"

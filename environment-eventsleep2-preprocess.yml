@@ -1,0 +1,10 @@
+name: eventsleep2-preprocess
+channels:
+  - defaults
+dependencies:
+  - python=3.9.16
+  - numpy=1.24.3
+  - pandas=1.5.3
+  - pip
+  - pip:
+      - aedat==2.0.2
