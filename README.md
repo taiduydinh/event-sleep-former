@@ -121,4 +121,16 @@ The EventSleep datasets remain subject to their original access and usage terms.
 
 ## Citation
 
-If you use this repository, please cite the EventSleepFormer paper. The final publication metadata can be added here after publication; `CITATION.cff` already provides a software citation for this repository.
+If you use this repository or build on EventSleepFormer, please cite the following paper:
+
+**Vidushika Neranjani Perera, Tai Dinh, and Yasuki Saito, “EventSleepFormer: An Efficient Framework for Event-Camera Sleep Activity, Movement, and Posture Recognition.”**
+
+```bibtex
+@article{perera2026eventsleepformer,
+  title={EventSleepFormer: An Efficient Framework for Event-Camera Sleep Activity, Movement, and Posture Recognition},
+  author={Perera, Vidushika Neranjani and Dinh, Tai and Saito, Yasuki},
+  year={2026}
+}
+```
+
+The BibTeX entry above intentionally contains only the currently available paper information. Venue, volume, pages, and other publication metadata can be added after publication.
