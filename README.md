@@ -123,10 +123,10 @@ The EventSleep datasets remain subject to their original access and usage terms.
 
 If you use this repository or build on EventSleepFormer, please cite the following paper:
 
-**Vidushika Neranjani Perera, Tai Dinh, and Yasuki Saito, “EventSleepFormer: An Efficient Framework for Event-Camera Sleep Activity, Movement, and Posture Recognition.”**
+**Author identities are concealed during the double-blind peer-review process., “EventSleepFormer: An Efficient Framework for Event-Camera Sleep Activity, Movement, and Posture Recognition.”**
 
 ```bibtex
-@article{perera2026eventsleepformer,
+@article{eventsleepformer,
   title={EventSleepFormer: An Efficient Framework for Event-Camera Sleep Activity, Movement, and Posture Recognition},
   author={Author identities are concealed during the double-blind peer-review process.}
   year={2026}
